@@ -1,0 +1,74 @@
+.portfolio-card {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  .photo-container {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%; /* Make the photo round */
+    margin-right: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .round-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .header-details {
+    flex-grow: 1;
+  }
+  
+  /* Rest of your existing styles ... */
+  
+  
+  .header-text {
+    font-size: 1.5rem;
+  }
+  
+  /* Style the sections as needed */
+  .about h2,
+  .experience h2,
+  .education h2,
+  .skills h2,
+  .hobbies h2,
+  .contact h2 {
+    font-size: 1.2rem;
+    margin-top: 15px;
+  }
+  
+  /* Add padding between sections */
+  .about,
+  .experience,
+  .education,
+  .skills,
+  .hobbies,
+  .contact {
+    margin-bottom: 20px;
+  }
+  .header-details {
+    flex-grow: 1;
+  }
+  
+  .header-details a {
+    display: block;
+    margin-top: 10px;
+    color: #0077b5; /* LinkedIn blue color */
+    text-decoration: none;
+  }
+  
+  .header-details a:hover {
+    text-decoration: underline;
+  }
